@@ -1,0 +1,20 @@
+{
+  "name": "easyorder-server",
+  "version": "1.0.0",
+  "description": "EasyOrder — Restaurant NFC ordering system (backend)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "lowdb": "^1.0.0",
+    "socket.io": "^4.6.1",
+    "ws": "^8.16.0"
+  }
+}
